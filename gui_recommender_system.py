@@ -87,7 +87,7 @@ if genre == "Giới thiệu":
     st.sidebar.title("Recommender System")
     st.sidebar.markdown('**Giáo viên hướng dẫn:** Mrs. Thùy Phương')
     st.sidebar.markdown('**Người thực hiện:** Lê Gia Linh & Phạm Tường Hân')
-    st.sidebar.markdown('**Ngày báo cáo:** *07/12/2024*')
+
 else:
     # tên đăng nhập
     choice = st.sidebar.selectbox('Tên đăng nhập', list(df_mkh['ma_khach_hang']), index=None) # sign in
