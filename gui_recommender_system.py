@@ -127,7 +127,7 @@ else:
     choice = st.sidebar.selectbox('Tên đăng nhập', lst_account, index=None) # sign in
     # Mật khẩu
     st.sidebar.text_input('Mật khẩu', type='password', value=choice) 
-    st.markdown('*Ghi chú: mã khách hàng mới nằm ở cuối danh sách chọn.\
+    st.sidebar.markdown('*Ghi chú: mã khách hàng mới nằm ở cuối danh sách chọn.\
         Giao diện người dùng mới tương tự như giao diện khách hàng không đăng nhập*')
         
     ######## Đề xuất dựa trên người dùng
